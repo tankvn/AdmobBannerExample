@@ -1,0 +1,4 @@
+#Fri Nov 01 14:30:10 EET 2019
+base.0=/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

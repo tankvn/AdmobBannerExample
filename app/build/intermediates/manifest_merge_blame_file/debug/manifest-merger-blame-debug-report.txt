@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sesapp.exampleadmobbannerview"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:6:5-78
+12-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:25:5-68
+13-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:25:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
+15
+16    <application
+16-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:8:5-27:19
+17        android:allowBackup="true"
+17-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:9:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/969f56928fce6fdd8f3190d02717442a/core-1.1.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:10:9-43
+21        android:label="@string/app_name"
+21-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:11:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:12:9-54
+23        android:supportsRtl="true"
+23-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:13:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:14:9-40
+26        <meta-data
+26-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:16:9-18:69
+27            android:name="com.google.android.gms.ads.APPLICATION_ID"
+27-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:17:13-69
+28            android:value="ca-app-pub-3940256099942544~3347511713" />
+28-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:18:13-67
+29
+30        <activity android:name="com.sesapp.exampleadmobbannerview.MainActivity" >
+30-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:20:9-26:20
+30-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:20:19-47
+31            <intent-filter>
+31-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:21:13-25:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:22:17-69
+32-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:22:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:24:17-77
+34-->/Users/iamkurtgoz/Software/AndroidProjects/ExampleAdmobBannerView/app/src/main/AndroidManifest.xml:24:27-74
+35            </intent-filter>
+36        </activity>
+37        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+38        <activity
+38-->[com.google.android.gms:play-services-ads-lite:18.2.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/8e8617cbbee8aa9bcc3d3ba183f3140a/jetified-play-services-ads-lite-18.2.0/AndroidManifest.xml:29:9-33:64
+39            android:name="com.google.android.gms.ads.AdActivity"
+39-->[com.google.android.gms:play-services-ads-lite:18.2.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/8e8617cbbee8aa9bcc3d3ba183f3140a/jetified-play-services-ads-lite-18.2.0/AndroidManifest.xml:30:13-65
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+40-->[com.google.android.gms:play-services-ads-lite:18.2.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/8e8617cbbee8aa9bcc3d3ba183f3140a/jetified-play-services-ads-lite-18.2.0/AndroidManifest.xml:31:13-122
+41            android:exported="false"
+41-->[com.google.android.gms:play-services-ads-lite:18.2.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/8e8617cbbee8aa9bcc3d3ba183f3140a/jetified-play-services-ads-lite-18.2.0/AndroidManifest.xml:32:13-37
+42            android:theme="@android:style/Theme.Translucent" />
+42-->[com.google.android.gms:play-services-ads-lite:18.2.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/8e8617cbbee8aa9bcc3d3ba183f3140a/jetified-play-services-ads-lite-18.2.0/AndroidManifest.xml:33:13-61
+43
+44        <provider
+44-->[com.google.android.gms:play-services-ads-lite:18.2.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/8e8617cbbee8aa9bcc3d3ba183f3140a/jetified-play-services-ads-lite-18.2.0/AndroidManifest.xml:35:9-39:39
+45            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+45-->[com.google.android.gms:play-services-ads-lite:18.2.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/8e8617cbbee8aa9bcc3d3ba183f3140a/jetified-play-services-ads-lite-18.2.0/AndroidManifest.xml:36:13-76
+46            android:authorities="com.sesapp.exampleadmobbannerview.mobileadsinitprovider"
+46-->[com.google.android.gms:play-services-ads-lite:18.2.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/8e8617cbbee8aa9bcc3d3ba183f3140a/jetified-play-services-ads-lite-18.2.0/AndroidManifest.xml:37:13-73
+47            android:exported="false"
+47-->[com.google.android.gms:play-services-ads-lite:18.2.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/8e8617cbbee8aa9bcc3d3ba183f3140a/jetified-play-services-ads-lite-18.2.0/AndroidManifest.xml:38:13-37
+48            android:initOrder="100" />
+48-->[com.google.android.gms:play-services-ads-lite:18.2.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/8e8617cbbee8aa9bcc3d3ba183f3140a/jetified-play-services-ads-lite-18.2.0/AndroidManifest.xml:39:13-36
+49
+50        <receiver
+50-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
+51            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+51-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
+52            android:enabled="true"
+52-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
+53            android:exported="false" >
+53-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
+54        </receiver>
+55        <receiver
+55-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
+56            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+56-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
+57            android:enabled="true"
+57-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
+58            android:exported="true"
+58-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
+59            android:permission="android.permission.INSTALL_PACKAGES" >
+59-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
+60            <intent-filter>
+60-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
+61                <action android:name="com.android.vending.INSTALL_REFERRER" />
+61-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
+61-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
+62            </intent-filter>
+63        </receiver>
+64
+65        <service
+65-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
+66            android:name="com.google.android.gms.measurement.AppMeasurementService"
+66-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
+67            android:enabled="true"
+67-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
+68            android:exported="false" />
+68-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
+69        <service
+69-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
+70            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+70-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87
+71            android:enabled="true"
+71-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
+73            android:permission="android.permission.BIND_JOB_SERVICE" />
+73-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/5fe18275cf5c38be1696176aa246c748/jetified-play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
+74
+75        <meta-data
+75-->[com.google.android.gms:play-services-basement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/03668d7cd5b0b3cc87648bb6751d2ba9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+76            android:name="com.google.android.gms.version"
+76-->[com.google.android.gms:play-services-basement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/03668d7cd5b0b3cc87648bb6751d2ba9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+77            android:value="@integer/google_play_services_version" />
+77-->[com.google.android.gms:play-services-basement:17.0.0] /Users/iamkurtgoz/.gradle/caches/transforms-2/files-2.1/03668d7cd5b0b3cc87648bb6751d2ba9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+78    </application>
+79
+80</manifest>
